@@ -87,32 +87,13 @@ Responsibilities covered project coordination together with circuit design, simu
 </tr>
 </table>
 
-### Real Research Figures
+### Research Coverage & Figures
 
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://new1.uestc.edu.cn/upload/image/a8c74015088b2178ee48b8b7c67fccfb.png" width="95%" alt="Hilbert-fractal capsule antenna structure" />
-<br/><sub>Hilbert-fractal conformal antenna structure</sub>
-</td>
-<td width="50%" align="center">
-<img src="https://new1.uestc.edu.cn/upload/image/a083efda108ec891f900a1e191719079.png" width="95%" alt="Hilbert-fractal antenna S11 and gain" />
-<br/><sub>Measured / simulated response reported with the first-author work</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<img src="https://new1.uestc.edu.cn/upload/image/c816c75099f2de7d6e8cc9163cf602c0.png" width="95%" alt="Minkowski-like capsule antenna structure" />
-<br/><sub>Minkowski-like broadband capsule antenna structure</sub>
-</td>
-<td width="50%" align="center">
-<img src="https://new1.uestc.edu.cn/upload/image/02fde3de2786eb4e85c80cef3c0932d4.png" width="95%" alt="Minkowski-like antenna S11 and gain" />
-<br/><sub>Broadband response and gain reported with the co-authored work</sub>
-</td>
-</tr>
-</table>
+The official UESTC research feature includes the **antenna structures, feed-point locations, |S11| / gain plots, and physical gain-test figure** associated with these two ICMMT 2024 papers.
 
-<sub>Research figures above are linked from official UESTC coverage of the ICMMT 2024 work.</sub>
+[View the official UESTC research feature and figures →](https://new1.uestc.edu.cn/?Id=94083&n=UestcNews.Front.DocumentV2.ArticlePage)
+
+> The figures are intentionally linked instead of hot-linked here because the UESTC image server blocks GitHub's image proxy. Repository-hosted copies can be added later from the original paper/project files.
 
 ---
 
@@ -166,17 +147,17 @@ Selected engineering questions include corner-dependent overlap, conduction-base
 
 ### 0.18 μm CMOS LDO
 
-Tape-out and verification work includes:
+Verification and implementation work includes:
 
-- Reference / bandgap and biasing
-- Error amplifier and pass-device design
-- Line regulation and load regulation
+- DC operating point and biasing
+- Line regulation
+- Load regulation
 - Load transient
 - PSRR
 - Loop stability
 - Temperature / PVT behavior
 - Layout, DRC / LVS and post-layout simulation
-- Tape-out coordination and measurement-oriented evaluation
+- Measurement-oriented evaluation
 
 ---
 

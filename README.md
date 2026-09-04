@@ -1,31 +1,49 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Yichen Jiang — Analog IC / PMIC" width="100%" />
+# Analog IC · PMIC · Mixed-Signal
 
-### Analog IC · Power Management · Mixed-Signal IC
+**Power Management IC · CMOS Analog Design · Post-Layout Verification**
 
-I design, simulate, verify, and document CMOS circuits — with a focus on **power-management ICs**, **analog building blocks**, and **post-layout verification**.
-
-[![Analog IC](https://img.shields.io/badge/Focus-Analog%20IC-0ea5e9?style=for-the-badge)](#)
-[![PMIC](https://img.shields.io/badge/Focus-PMIC-7c3aed?style=for-the-badge)](#)
-[![Virtuoso](https://img.shields.io/badge/Cadence-Virtuoso-2563eb?style=for-the-badge)](#)
-[![Calibre](https://img.shields.io/badge/Verification-Calibre-059669?style=for-the-badge)](#)
+`2× CMOS Tape-out` · `0.18 μm Project Manager` · `IEEE ICMMT 2024`
 
 </div>
 
 ---
 
-## 👋 About Me
+## Profile
 
-I'm **Yichen Jiang (蒋懿辰)**, working in the area of **analog integrated circuits and power management**.
+Analog / mixed-signal IC designer focused on **power-management ICs**, transistor-level CMOS design, and implementation-aware verification.
 
-My current interests center on transistor-level CMOS design, power-stage / driver optimization, feedback systems, analog building blocks, and the complete implementation flow from schematic simulation to **DRC / LVS / PEX / post-layout verification**.
-
-I like projects that sit at the boundary between theory and silicon: not only *whether a circuit works*, but also **why it works, where it fails, and how much margin it has across PVT**.
+Current work spans power stages, gate drivers, feedback systems, analog building blocks, startup behavior, PVT robustness, parasitic extraction, and post-layout simulation. The emphasis is not only on whether a circuit works, but on **why it works, where it fails, and how much margin remains across operating conditions**.
 
 ---
 
-## ⚡ Research & Design Interests
+## Tape-out Experience
+
+### 2× CMOS Tape-out Projects
+
+**Project Manager — 0.18 μm CMOS LDO / PMIC**  
+Coordinated project execution across circuit design, verification, layout/signoff, and measurement-oriented evaluation. Main topics include bandgap/reference, error amplifier, pass device, feedback network, PSRR, line/load regulation, transient response, and post-layout verification.
+
+**65-nm CMOS PMIC / DC-DC Converter**  
+Focused on power-stage and gate-driver design, dead-time / non-overlap timing, startup sequencing, efficiency optimization, device stress, PVT corners, Calibre PEX, and post-layout transient verification.
+
+---
+
+## Selected Publication
+
+### First-author IEEE Conference Paper
+
+**[A High Gain Conformal Antenna Based on Hilbert Fractal for Capsule Endoscopy Application](https://ieeexplore.ieee.org/document/10672431)**  
+*2024 International Conference on Microwave and Millimeter Wave Technology (ICMMT 2024), IEEE*
+
+**DOI:** [10.1109/ICMMT61774.2024.10672431](https://doi.org/10.1109/ICMMT61774.2024.10672431)
+
+Research topics: wireless capsule endoscopy, conformal antenna, Hilbert fractal, broadband design, and gain optimization.
+
+---
+
+## Research & Design Interests
 
 <table>
 <tr>
@@ -47,7 +65,7 @@ I like projects that sit at the boundary between theory and silicon: not only *w
 - Operational amplifiers / OTAs
 - Comparators
 - Oscillators
-- Bandgap / references
+- Bandgap / voltage references
 - ADC building blocks
 - Feedback & stability
 - Behavioral modeling
@@ -58,81 +76,66 @@ I like projects that sit at the boundary between theory and silicon: not only *w
 
 ---
 
-## 🚀 Featured Projects
+## Selected Engineering Work
 
-### ⚡ 65-nm CMOS DC-DC Converter
+### 65-nm CMOS DC-DC Converter
 
-**Focus:** power stage, gate driver, non-overlap timing, efficiency, PVT and post-layout verification.
-
-| Item | Design focus |
+| Area | Work |
 |---|---|
-| Technology | 65-nm CMOS |
-| Supply domain | Low-voltage CMOS / PMIC |
 | Power stage | High-side / low-side switching devices |
-| Timing | Dead-time and non-overlap optimization |
-| Verification | Transient, PVT, device stress, post-layout |
-| Tools | Virtuoso, Spectre, Calibre |
+| Gate drive | Delay, rise/fall-time and drive-strength trade-offs |
+| Timing | Dead-time / non-overlap optimization |
+| Reliability | Shoot-through and device-stress checks |
+| Verification | Transient, startup, PVT, PEX, post-layout |
+| Tools | Cadence Virtuoso, Spectre, Calibre |
 
-**Selected engineering topics**
-- Gate-driver delay and rise/fall-time trade-offs
-- Shoot-through avoidance using device-level conduction criteria
-- Efficiency extraction and input-current measurement
-- Corner-dependent timing behavior
-- PEX-aware transient verification
+Selected engineering questions include corner-dependent overlap, conduction-based dead-time measurement, current-path interpretation, efficiency extraction, and parasitic-aware timing verification.
 
-> Public material is intentionally sanitized: no foundry PDK, rule decks, proprietary models, or restricted process data are published here.
+### 0.18 μm CMOS LDO
 
----
+Verification and implementation work includes:
 
-### 🔋 CMOS LDO Regulator
-
-**Focus:** reference, error amplifier, pass device, loop stability, regulation, transient response, layout and measurement-oriented verification.
-
-**Key verification dimensions**
-- DC operating point
+- DC operating point and biasing
 - Line regulation
 - Load regulation
 - Load transient
 - PSRR
 - Loop stability
 - Temperature / PVT behavior
-- Layout-aware simulation
+- Layout, DRC / LVS and post-layout simulation
+- Measurement-oriented evaluation
+
+### Antenna Research
+
+Research experience in compact / conformal antennas for wireless capsule endoscopy, including fractal-based miniaturization, impedance matching, in-body propagation considerations, and gain optimization.
 
 ---
 
-### 📡 MIMO Capsule Antenna
-
-A research project on a compact **MIMO antenna for capsule-endoscopy applications**, with emphasis on miniaturization, in-body operation, impedance matching and isolation.
-
-This project complements my IC work with experience in EM-oriented design and system-level engineering.
-
----
-
-## 🧩 IC Design Workflow
+## IC Design Workflow
 
 <div align="center">
-<img src="./assets/ic-design-flow.svg" alt="IC design flow" width="100%" />
+<img src="./assets/ic-design-flow.svg" alt="IC design workflow" width="100%" />
 </div>
 
 ---
 
-## 🛠 Engineering Stack
+## Engineering Stack
 
-### EDA & Verification
+**EDA & Verification**  
 `Cadence Virtuoso` · `Spectre` · `Calibre DRC/LVS/PEX` · `ADE Explorer / Assembler`
 
-### Circuit & Modeling
+**Circuit & Modeling**  
 `CMOS Analog Design` · `PMIC` · `Verilog-A` · `SPICE / Spectre Netlists`
 
-### Computing & Documentation
+**Computing & Documentation**  
 `MATLAB` · `Python` · `LaTeX` · `Git` · `Markdown`
 
-### Verification Habits
+**Verification Methods**  
 `PVT` · `Monte Carlo` · `Transient` · `AC / STB` · `Stress Checks` · `Post-Layout`
 
 ---
 
-## 📚 Topics I'm Building Notes On
+## Technical Notes in Progress
 
 - MOS device operation and short-channel effects
 - Analog IC fundamentals
@@ -147,51 +150,14 @@ This project complements my IC work with experience in EM-oriented design and sy
 
 ---
 
-## 📈 Engineering Philosophy
-
-```text
-Specification
-    ↓
-Architecture
-    ↓
-Hand Analysis
-    ↓
-Schematic Design
-    ↓
-Pre-layout Verification
-    ↓
-Layout → DRC / LVS
-    ↓
-PEX
-    ↓
-Post-layout Verification
-    ↓
-Measurement / Iteration
-```
-
-I prefer to treat verification as part of the design itself: every important result should be tied to a **measurable metric**, a **defined operating condition**, and a **clear margin**.
-
----
-
-## 📊 GitHub Activity
+## GitHub Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=CryingXC&show_icons=true&hide_border=true&theme=transparent" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CryingXC&layout=compact&hide_border=true&theme=transparent" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=CryingXC&show_icons=true&hide_border=true&theme=transparent" alt="GitHub stats" />
 </p>
 
 ---
 
-## 📫 Contact
+For research collaboration, analog / PMIC discussion, or project exchange, GitHub is the preferred contact channel.
 
-For research collaboration, analog / PMIC discussion, or project exchange, feel free to reach out through my GitHub profile.
-
-> Login credentials, foundry data, proprietary netlists, model files, PDK content, and rule decks are never published in this repository.
-
----
-
-<div align="center">
-
-**Analog IC · PMIC · Keep designing, measuring, and iterating.**
-
-</div>
+> Public repositories intentionally exclude foundry PDKs, proprietary models, Calibre rule decks, restricted process data, credentials, and private infrastructure information.

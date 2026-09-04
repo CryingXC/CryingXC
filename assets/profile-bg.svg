@@ -1,28 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0b1220"/>
-      <stop offset="55%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b13"/>
+      <stop offset="0.55" stop-color="#0d1522"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <radialGradient id="wafer" cx="72%" cy="45%" r="46%">
-      <stop offset="0%" stop-color="#334155" stop-opacity="0.32"/>
-      <stop offset="75%" stop-color="#1e293b" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    <radialGradient id="waferGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.22"/>
+      <stop offset="0.45" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="0.78" stop-color="#8b5cf6" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#94a3b8" stroke-opacity="0.055" stroke-width="1"/>
+    <linearGradient id="die" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155"/>
+      <stop offset="0.45" stop-color="#182231"/>
+      <stop offset="1" stop-color="#0b111b"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9a45e"/>
+      <stop offset="0.45" stop-color="#b87333"/>
+      <stop offset="1" stop-color="#6b3f1f"/>
+    </linearGradient>
+    <pattern id="dies" width="38" height="38" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="34" height="34" rx="2" fill="none" stroke="#7dd3fc" stroke-opacity="0.18"/>
+      <path d="M7 11H29M7 19H29M7 27H29M11 7V31M19 7V31M27 7V31" stroke="#c4b5fd" stroke-opacity="0.08" stroke-width="0.8"/>
     </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
   </defs>
-  <rect width="1600" height="420" rx="22" fill="url(#bg)"/>
-  <rect width="1600" height="420" rx="22" fill="url(#grid)"/>
-  <ellipse cx="1180" cy="190" rx="310" ry="260" fill="url(#wafer)"/>
-  <g fill="none" stroke="#7dd3fc" stroke-opacity="0.10" stroke-width="1.2">
-    <ellipse cx="1180" cy="190" rx="235" ry="195"/>
-    <ellipse cx="1180" cy="190" rx="180" ry="150"/>
-    <ellipse cx="1180" cy="190" rx="125" ry="105"/>
-    <path d="M945 190H1415M1180 -5V385"/>
+
+  <rect width="1600" height="360" rx="24" fill="url(#bg)"/>
+
+  <!-- wafer -->
+  <g transform="translate(195 180)" opacity="0.98">
+    <circle r="205" fill="url(#waferGlow)"/>
+    <circle r="174" fill="#0b1220" stroke="#334155" stroke-width="2"/>
+    <circle r="168" fill="url(#dies)"/>
+    <circle r="168" fill="none" stroke="#67e8f9" stroke-opacity="0.20"/>
+    <path d="M-120 118L120-118M-148 78L78-148M-78 148L148-78" stroke="#a78bfa" stroke-opacity="0.10"/>
+    <path d="M-57 157Q0 170 57 157" fill="none" stroke="#64748b" stroke-opacity="0.8" stroke-width="4"/>
   </g>
-  <path d="M80 286 C160 285 182 215 250 215 S350 305 430 305 520 168 605 168 690 265 770 265 835 225 900 225" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="2"/>
-  <path d="M80 316 H900" fill="none" stroke="#cbd5e1" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- subtle routing -->
+  <g fill="none" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="2">
+    <path d="M400 102H560V76H760"/>
+    <path d="M382 244H530V286H760"/>
+    <path d="M520 180H675V143H760"/>
+    <circle cx="560" cy="76" r="4" fill="#38bdf8"/>
+    <circle cx="530" cy="286" r="4" fill="#38bdf8"/>
+    <circle cx="675" cy="143" r="4" fill="#38bdf8"/>
+  </g>
+
+  <!-- package / chip -->
+  <g transform="translate(860 52)" filter="url(#shadow)">
+    <rect x="0" y="0" width="410" height="256" rx="28" fill="url(#die)" stroke="#475569" stroke-width="2"/>
+    <g fill="#8793a3">
+      <rect x="-52" y="24" width="58" height="16" rx="5"/><rect x="-52" y="58" width="58" height="16" rx="5"/><rect x="-52" y="92" width="58" height="16" rx="5"/><rect x="-52" y="126" width="58" height="16" rx="5"/><rect x="-52" y="160" width="58" height="16" rx="5"/><rect x="-52" y="194" width="58" height="16" rx="5"/>
+      <rect x="404" y="24" width="58" height="16" rx="5"/><rect x="404" y="58" width="58" height="16" rx="5"/><rect x="404" y="92" width="58" height="16" rx="5"/><rect x="404" y="126" width="58" height="16" rx="5"/><rect x="404" y="160" width="58" height="16" rx="5"/><rect x="404" y="194" width="58" height="16" rx="5"/>
+      <rect x="30" y="-48" width="16" height="54" rx="5"/><rect x="78" y="-48" width="16" height="54" rx="5"/><rect x="126" y="-48" width="16" height="54" rx="5"/><rect x="174" y="-48" width="16" height="54" rx="5"/><rect x="222" y="-48" width="16" height="54" rx="5"/><rect x="270" y="-48" width="16" height="54" rx="5"/><rect x="318" y="-48" width="16" height="54" rx="5"/><rect x="366" y="-48" width="16" height="54" rx="5"/>
+      <rect x="30" y="250" width="16" height="54" rx="5"/><rect x="78" y="250" width="16" height="54" rx="5"/><rect x="126" y="250" width="16" height="54" rx="5"/><rect x="174" y="250" width="16" height="54" rx="5"/><rect x="222" y="250" width="16" height="54" rx="5"/><rect x="270" y="250" width="16" height="54" rx="5"/><rect x="318" y="250" width="16" height="54" rx="5"/><rect x="366" y="250" width="16" height="54" rx="5"/>
+    </g>
+    <rect x="68" y="45" width="274" height="166" rx="10" fill="#111827" stroke="#64748b"/>
+    <rect x="101" y="70" width="208" height="116" rx="5" fill="url(#core)" stroke="#e6b66d" stroke-opacity="0.75"/>
+    <g stroke="#ffe0a3" stroke-opacity="0.38" stroke-width="1.2">
+      <path d="M112 91H298M112 112H298M112 133H298M112 154H298M133 79V178M165 79V178M197 79V178M229 79V178M261 79V178M293 79V178"/>
+    </g>
+  </g>
+
+  <!-- lab-style annotation lines only, no names/text -->
+  <g stroke="#e2e8f0" stroke-opacity="0.10" fill="none">
+    <path d="M1330 88H1510M1330 180H1540M1330 272H1490"/>
+    <path d="M1410 65V298"/>
+  </g>
 </svg>

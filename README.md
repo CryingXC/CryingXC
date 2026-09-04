@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/profile-bg.svg" alt="Technical background" width="100%" />
+<img src="./assets/profile-bg.svg" alt="Chip and wafer banner" width="100%" />
 
 # Analog IC · PMIC · Mixed-Signal
 
 **Power Management IC · CMOS Analog Design · Post-Layout Verification**
 
-`2× CMOS Tape-out` · `0.18 μm Project Manager` · `2× IEEE ICMMT 2024 Papers`
+`2× UMC CMOS Tape-out` · `0.18 μm LDO Project Manager` · `2× IEEE ICMMT 2024 Papers`
 
 </div>
 
@@ -31,18 +31,24 @@ Current work spans power stages, gate drivers, feedback systems, analog building
 
 ## Tape-out Timeline
 
-| Year | Project | Role / Scope |
+| Period | Tape-out | Role / Scope |
 |---|---|---|
-| **2026** | **0.18 μm CMOS LDO / PMIC** | **Project Manager** · circuit design · verification · layout/signoff · tape-out · measurement-oriented evaluation |
-| **2026** | **65-nm CMOS PMIC / DC-DC Converter** | power stage · gate driver · dead-time / non-overlap · startup · PVT · Calibre PEX · post-layout verification · tape-out |
+| **2024 – 2025** | **Two-Stage Operational Amplifier Engineering Tape-out & Test Verification** | First CMOS tape-out experience · transistor-level design · pre/post-layout simulation · layout & physical verification · full-chip post-layout checks · UMC tape-out flow · [Program report](https://www.gla.uestc.edu.cn/info/1003/17178.htm) |
+| **2025 – 2026** | **0.18 μm LDO Linear Regulator Tape-out** | **Project Manager** · 3.3 V → 1.8 V LDO · reference · error amplifier · comparator · power MOS · design/simulation/layout verification · UMC tape-out · [Program report](https://news.uestc.edu.cn/info/1004/41344.htm) |
 
 ### Tape-out Experience
 
-**0.18 μm CMOS LDO / PMIC — Project Manager**  
-Coordinated project execution across circuit design, verification, layout/signoff, tape-out, and measurement-oriented evaluation. Main topics include reference / bandgap circuitry, error amplifier, pass device, feedback network, PSRR, line/load regulation, transient response, and post-layout verification.
+#### 01 · First Tape-out — Two-Stage Operational Amplifier
 
-**65-nm CMOS PMIC / DC-DC Converter**  
-Focused on power-stage and gate-driver design, dead-time / non-overlap timing, startup sequencing, efficiency optimization, device stress, PVT corners, Calibre PEX, and post-layout transient verification.
+Participated in Glasgow College's first engineering tape-out course, centered on a **two-stage operational amplifier** and the complete analog-IC implementation flow. The work covered circuit design and simulation, layout design and verification, post-layout simulation, full-chip verification, tape-out data checks, and subsequent test-oriented work.
+
+The inaugural course ran from 2024 to 2025; **46 student tape-out designs passed UMC's professional review and completed the Tape-out flow**.
+
+#### 02 · Second Tape-out — 0.18 μm LDO Linear Regulator
+
+Returned for a second tape-out and joined the advanced **LDO Linear Regulator** project as **Project Manager**. The project implemented a **3.3 V → 1.8 V** linear regulator composed of a reference block, error amplifier, comparator, power MOS stage, and supporting control / feedback circuitry.
+
+Responsibilities covered project coordination together with circuit design, simulation verification, layout verification, tape-out preparation, and measurement-oriented evaluation.
 
 ---
 
@@ -143,7 +149,7 @@ Focused on power-stage and gate-driver design, dead-time / non-overlap timing, s
 
 ---
 
-## Selected Engineering Work
+## Current Engineering Work
 
 ### 65-nm CMOS DC-DC Converter
 
@@ -160,17 +166,17 @@ Selected engineering questions include corner-dependent overlap, conduction-base
 
 ### 0.18 μm CMOS LDO
 
-Verification and implementation work includes:
+Tape-out and verification work includes:
 
-- DC operating point and biasing
-- Line regulation
-- Load regulation
+- Reference / bandgap and biasing
+- Error amplifier and pass-device design
+- Line regulation and load regulation
 - Load transient
 - PSRR
 - Loop stability
 - Temperature / PVT behavior
 - Layout, DRC / LVS and post-layout simulation
-- Measurement-oriented evaluation
+- Tape-out coordination and measurement-oriented evaluation
 
 ---
 

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="55%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="wafer" cx="72%" cy="45%" r="46%">
+      <stop offset="0%" stop-color="#334155" stop-opacity="0.32"/>
+      <stop offset="75%" stop-color="#1e293b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#94a3b8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="420" rx="22" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="22" fill="url(#grid)"/>
+  <ellipse cx="1180" cy="190" rx="310" ry="260" fill="url(#wafer)"/>
+  <g fill="none" stroke="#7dd3fc" stroke-opacity="0.10" stroke-width="1.2">
+    <ellipse cx="1180" cy="190" rx="235" ry="195"/>
+    <ellipse cx="1180" cy="190" rx="180" ry="150"/>
+    <ellipse cx="1180" cy="190" rx="125" ry="105"/>
+    <path d="M945 190H1415M1180 -5V385"/>
+  </g>
+  <path d="M80 286 C160 285 182 215 250 215 S350 305 430 305 520 168 605 168 690 265 770 265 835 225 900 225" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="2"/>
+  <path d="M80 316 H900" fill="none" stroke="#cbd5e1" stroke-opacity="0.08" stroke-width="1"/>
+</svg>

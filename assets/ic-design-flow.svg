@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="245" viewBox="0 0 1200 245">
+<rect width="1200" height="245" rx="24" fill="#0d1117"/>
+<style>.box{fill:#111827;stroke:#334155;stroke-width:2}.t{fill:#e5e7eb;font:600 17px 'Segoe UI',Arial,sans-serif}.s{fill:#94a3b8;font:14px 'Segoe UI',Arial,sans-serif}.a{stroke:#22d3ee;stroke-width:3;fill:none;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#22d3ee"/></marker></defs>
+<g transform="translate(35,62)">
+<rect class="box" x="0" y="0" width="150" height="85" rx="15"/><text class="t" x="75" y="35" text-anchor="middle">Specifications</text><text class="s" x="75" y="61" text-anchor="middle">targets &amp; budgets</text>
+<path class="a" d="M150 42H185"/><rect class="box" x="185" y="0" width="150" height="85" rx="15"/><text class="t" x="260" y="35" text-anchor="middle">Architecture</text><text class="s" x="260" y="61" text-anchor="middle">topology &amp; interfaces</text>
+<path class="a" d="M335 42H370"/><rect class="box" x="370" y="0" width="150" height="85" rx="15"/><text class="t" x="445" y="35" text-anchor="middle">Schematic</text><text class="s" x="445" y="61" text-anchor="middle">transistor design</text>
+<path class="a" d="M520 42H555"/><rect class="box" x="555" y="0" width="150" height="85" rx="15"/><text class="t" x="630" y="35" text-anchor="middle">Simulation</text><text class="s" x="630" y="61" text-anchor="middle">PVT · MC · stress</text>
+<path class="a" d="M705 42H740"/><rect class="box" x="740" y="0" width="150" height="85" rx="15"/><text class="t" x="815" y="35" text-anchor="middle">Layout</text><text class="s" x="815" y="61" text-anchor="middle">DRC · LVS</text>
+<path class="a" d="M890 42H925"/><rect class="box" x="925" y="0" width="150" height="85" rx="15"/><text class="t" x="1000" y="35" text-anchor="middle">PEX</text><text class="s" x="1000" y="61" text-anchor="middle">post-layout signoff</text>
+</g>
+<text x="600" y="200" text-anchor="middle" fill="#67e8f9" font-family="Segoe UI,Arial,sans-serif" font-size="17">Cadence Virtuoso · Spectre · Calibre · MATLAB / Python</text>
+</svg>

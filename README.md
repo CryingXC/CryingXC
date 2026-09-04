@@ -29,6 +29,34 @@ Current work spans power stages, gate drivers, feedback systems, analog building
 
 ---
 
+## Featured Projects
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 📡 [Capsule Antenna Research](https://github.com/CryingXC/Capsule-Antenna-Research)
+
+**2× IEEE ICMMT 2024 · Fractal Antennas · MIMO · HFSS**
+
+Research portfolio and technical notebook for **wireless capsule endoscopy antennas**, connecting two IEEE ICMMT 2024 publications with later work on **MIMO capsule antennas**.
+
+**Highlights**
+- Hilbert-fractal conformal antenna — **First-author ICMMT 2024 paper**
+- Minkowski-like broadband capsule antenna — **4th-author ICMMT 2024 paper**
+- In-body propagation, tissue loading and conformal geometry
+- S11 / S12 / bandwidth / gain / isolation / ECC
+- MIMO capsule antenna design considerations
+- HFSS simulation methodology and reproducible research workflow
+
+➡️ **[Explore the repository](https://github.com/CryingXC/Capsule-Antenna-Research)** · [Technical notes](https://github.com/CryingXC/Capsule-Antenna-Research/tree/main/docs) · [References](https://github.com/CryingXC/Capsule-Antenna-Research/blob/main/references.bib)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Tape-out Timeline
 
 | Period | Tape-out | Role / Scope |
@@ -67,7 +95,7 @@ Responsibilities covered project coordination together with circuit design, simu
 - Hilbert fractal / conformal antenna
 - Broadband and gain optimization
 
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10672431) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672431)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10672431) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672431) · [Project repository](https://github.com/CryingXC/Capsule-Antenna-Research)
 
 </td>
 <td width="50%" valign="top">
@@ -81,7 +109,7 @@ Responsibilities covered project coordination together with circuit design, simu
 - Minkowski-like fractal antenna
 - Broadband matching and gain evaluation
 
-[IEEE Xplore](https://ieeexplore.ieee.org/document/10672300) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672300)
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10672300) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672300) · [Project repository](https://github.com/CryingXC/Capsule-Antenna-Research)
 
 </td>
 </tr>

@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="./assets/profile-bg.svg" alt="Technical background" width="100%" />
+
 # Analog IC · PMIC · Mixed-Signal
 
 **Power Management IC · CMOS Analog Design · Post-Layout Verification**
 
-`2× CMOS Tape-out` · `0.18 μm Project Manager` · `IEEE ICMMT 2024`
+`2× CMOS Tape-out` · `0.18 μm Project Manager` · `2× IEEE ICMMT 2024 Papers`
 
 </div>
 
@@ -18,28 +20,93 @@ Current work spans power stages, gate drivers, feedback systems, analog building
 
 ---
 
-## Tape-out Experience
+## Education
 
-### 2× CMOS Tape-out Projects
+| Period | Institution | Focus |
+|---|---|---|
+| **2026 – Present** | **University of Macau** | Graduate study / research in analog IC, PMIC and mixed-signal design |
+| **2022 – 2026** | **University of Electronic Science and Technology of China (UESTC), Glasgow College** | B.Eng. in Microelectronics Science and Engineering |
 
-**Project Manager — 0.18 μm CMOS LDO / PMIC**  
-Coordinated project execution across circuit design, verification, layout/signoff, and measurement-oriented evaluation. Main topics include bandgap/reference, error amplifier, pass device, feedback network, PSRR, line/load regulation, transient response, and post-layout verification.
+---
+
+## Tape-out Timeline
+
+| Year | Project | Role / Scope |
+|---|---|---|
+| **2026** | **0.18 μm CMOS LDO / PMIC** | **Project Manager** · circuit design · verification · layout/signoff · tape-out · measurement-oriented evaluation |
+| **2026** | **65-nm CMOS PMIC / DC-DC Converter** | power stage · gate driver · dead-time / non-overlap · startup · PVT · Calibre PEX · post-layout verification · tape-out |
+
+### Tape-out Experience
+
+**0.18 μm CMOS LDO / PMIC — Project Manager**  
+Coordinated project execution across circuit design, verification, layout/signoff, tape-out, and measurement-oriented evaluation. Main topics include reference / bandgap circuitry, error amplifier, pass device, feedback network, PSRR, line/load regulation, transient response, and post-layout verification.
 
 **65-nm CMOS PMIC / DC-DC Converter**  
 Focused on power-stage and gate-driver design, dead-time / non-overlap timing, startup sequencing, efficiency optimization, device stress, PVT corners, Calibre PEX, and post-layout transient verification.
 
 ---
 
-## Selected Publication
+## Publications
 
-### First-author IEEE Conference Paper
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[A High Gain Conformal Antenna Based on Hilbert Fractal for Capsule Endoscopy Application](https://ieeexplore.ieee.org/document/10672431)**  
-*2024 International Conference on Microwave and Millimeter Wave Technology (ICMMT 2024), IEEE*
+### ICMMT 2024 · First Author
 
-**DOI:** [10.1109/ICMMT61774.2024.10672431](https://doi.org/10.1109/ICMMT61774.2024.10672431)
+**A High Gain Conformal Antenna Based on Hilbert Fractal for Capsule Endoscopy Application**
 
-Research topics: wireless capsule endoscopy, conformal antenna, Hilbert fractal, broadband design, and gain optimization.
+- IEEE ICMMT 2024
+- Wireless capsule endoscopy
+- Hilbert fractal / conformal antenna
+- Broadband and gain optimization
+
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10672431) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672431)
+
+</td>
+<td width="50%" valign="top">
+
+### ICMMT 2024 · Co-author (4th Author)
+
+**A Minkowski-like Broadband Capsule Antenna Based on Fractal Theory**
+
+- IEEE ICMMT 2024
+- Wireless capsule endoscopy
+- Minkowski-like fractal antenna
+- Broadband matching and gain evaluation
+
+[IEEE Xplore](https://ieeexplore.ieee.org/document/10672300) · [DOI](https://doi.org/10.1109/ICMMT61774.2024.10672300)
+
+</td>
+</tr>
+</table>
+
+### Real Research Figures
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="https://new1.uestc.edu.cn/upload/image/a8c74015088b2178ee48b8b7c67fccfb.png" width="95%" alt="Hilbert-fractal capsule antenna structure" />
+<br/><sub>Hilbert-fractal conformal antenna structure</sub>
+</td>
+<td width="50%" align="center">
+<img src="https://new1.uestc.edu.cn/upload/image/a083efda108ec891f900a1e191719079.png" width="95%" alt="Hilbert-fractal antenna S11 and gain" />
+<br/><sub>Measured / simulated response reported with the first-author work</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="https://new1.uestc.edu.cn/upload/image/c816c75099f2de7d6e8cc9163cf602c0.png" width="95%" alt="Minkowski-like capsule antenna structure" />
+<br/><sub>Minkowski-like broadband capsule antenna structure</sub>
+</td>
+<td width="50%" align="center">
+<img src="https://new1.uestc.edu.cn/upload/image/02fde3de2786eb4e85c80cef3c0932d4.png" width="95%" alt="Minkowski-like antenna S11 and gain" />
+<br/><sub>Broadband response and gain reported with the co-authored work</sub>
+</td>
+</tr>
+</table>
+
+<sub>Research figures above are linked from official UESTC coverage of the ICMMT 2024 work.</sub>
 
 ---
 
@@ -105,10 +172,6 @@ Verification and implementation work includes:
 - Layout, DRC / LVS and post-layout simulation
 - Measurement-oriented evaluation
 
-### Antenna Research
-
-Research experience in compact / conformal antennas for wireless capsule endoscopy, including fractal-based miniaturization, impedance matching, in-body propagation considerations, and gain optimization.
-
 ---
 
 ## IC Design Workflow
@@ -160,4 +223,4 @@ Research experience in compact / conformal antennas for wireless capsule endosco
 
 For research collaboration, analog / PMIC discussion, or project exchange, GitHub is the preferred contact channel.
 
-> Public repositories intentionally exclude foundry PDKs, proprietary models, Calibre rule decks, restricted process data, credentials, and private infrastructure information.
+> Public repositories intentionally exclude foundry PDKs, proprietary models, Calibre rule decks, restricted process data, credentials, and private infrastructure information. Only real, sanitized project screenshots are used for public IC-design visuals.

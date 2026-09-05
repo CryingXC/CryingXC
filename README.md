@@ -33,23 +33,36 @@ Current work spans power stages, gate drivers, feedback systems, analog building
 
 <table>
 <tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
 
 ### 📡 [Capsule Antenna Research](https://github.com/CryingXC/Capsule-Antenna-Research)
 
 **2× IEEE ICMMT 2024 · Fractal Antennas · MIMO · HFSS**
 
-Research portfolio and technical notebook for **wireless capsule endoscopy antennas**, connecting two IEEE ICMMT 2024 publications with later work on **MIMO capsule antennas**.
+Research portfolio and technical notebook for wireless capsule endoscopy antennas.
 
-**Highlights**
-- Hilbert-fractal conformal antenna — **First-author ICMMT 2024 paper**
-- Minkowski-like broadband capsule antenna — **4th-author ICMMT 2024 paper**
-- In-body propagation, tissue loading and conformal geometry
-- S11 / S12 / bandwidth / gain / isolation / ECC
-- MIMO capsule antenna design considerations
-- HFSS simulation methodology and reproducible research workflow
+- Hilbert-fractal conformal antenna — **First-author ICMMT 2024**
+- Minkowski-like broadband antenna — **4th-author ICMMT 2024**
+- S11 / S12 / gain / bandwidth / isolation / ECC
+- MIMO capsule antenna and HFSS methodology
 
-➡️ **[Explore the repository](https://github.com/CryingXC/Capsule-Antenna-Research)** · [Technical notes](https://github.com/CryingXC/Capsule-Antenna-Research/tree/main/docs) · [References](https://github.com/CryingXC/Capsule-Antenna-Research/blob/main/references.bib)
+**[Explore repository →](https://github.com/CryingXC/Capsule-Antenna-Research)**
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 [Analog Tape-out Workflow](https://github.com/CryingXC/Analog-Tapeout-Workflow)
+
+**2× CMOS Tape-out · DRC / LVS / PEX · Post-layout · Measurement**
+
+A process-independent engineering notebook built from two real tape-out experiences.
+
+- Specification → schematic → layout → signoff → measurement
+- PVT / Monte Carlo / DRC / LVS / PEX
+- Config-view hierarchy and post-layout debugging
+- Tape-out, post-layout and bring-up checklists
+
+**[Explore repository →](https://github.com/CryingXC/Analog-Tapeout-Workflow)**
 
 </td>
 </tr>
@@ -61,8 +74,8 @@ Research portfolio and technical notebook for **wireless capsule endoscopy anten
 
 | Period | Tape-out | Role / Scope |
 |---|---|---|
-| **2024 – 2025** | **Two-Stage Operational Amplifier Engineering Tape-out & Test Verification** | First CMOS tape-out experience · transistor-level design · pre/post-layout simulation · layout & physical verification · full-chip post-layout checks · UMC tape-out flow · [Program report](https://www.gla.uestc.edu.cn/info/1003/17178.htm) |
-| **2025 – 2026** | **0.18 μm LDO Linear Regulator Tape-out** | **Project Manager** · 3.3 V → 1.8 V LDO · reference · error amplifier · comparator · power MOS · design/simulation/layout verification · UMC tape-out · [Program report](https://news.uestc.edu.cn/info/1004/41344.htm) |
+| **2024 – 2025** | **Two-Stage Operational Amplifier Engineering Tape-out & Test Verification** | First CMOS tape-out experience · transistor-level design · pre/post-layout simulation · layout & physical verification · full-chip post-layout checks · UMC tape-out flow · [Case study](https://github.com/CryingXC/Analog-Tapeout-Workflow/blob/main/case-studies/01-two-stage-opamp.md) · [Program report](https://www.gla.uestc.edu.cn/info/1003/17178.htm) |
+| **2025 – 2026** | **0.18 μm LDO Linear Regulator Tape-out** | **Project Manager** · 3.3 V → 1.8 V LDO · reference · error amplifier · comparator · power MOS · design/simulation/layout verification · UMC tape-out · [Case study](https://github.com/CryingXC/Analog-Tapeout-Workflow/blob/main/case-studies/02-ldo-018um.md) · [Program report](https://news.uestc.edu.cn/info/1004/41344.htm) |
 
 ### Tape-out Experience
 
@@ -223,7 +236,7 @@ Verification and implementation work includes:
 - Comparator and oscillator design
 - ADC fundamentals
 - PVT / Monte Carlo methodology
-- DRC / LVS / PEX workflow
+- [DRC / LVS / PEX and tape-out workflow](https://github.com/CryingXC/Analog-Tapeout-Workflow)
 - Post-layout simulation methodology
 
 ---

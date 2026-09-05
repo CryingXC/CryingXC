@@ -37,6 +37,22 @@ Earlier undergraduate research during **Years 1–2** focused on capsule antenna
 <tr>
 <td width="50%" valign="top">
 
+### 📘 [Analog IC Notes](https://github.com/CryingXC/Analog-IC-Notes)
+
+**MOS Devices · Analog Building Blocks · Amplifiers · Feedback / Stability**
+
+A process-independent technical notebook for analog and mixed-signal IC design.
+
+- MOS operation, body effect, short-channel effects and small-signal models
+- Biasing, current mirrors, single-stage amplifiers and differential pairs
+- OTA / op-amp architectures, frequency response and compensation
+- Noise, mismatch, Monte Carlo, layout matching and simulation methodology
+
+**[Explore repository →](https://github.com/CryingXC/Analog-IC-Notes)**
+
+</td>
+<td width="50%" valign="top">
+
 ### 🧪 [Analog Tape-out Workflow](https://github.com/CryingXC/Analog-Tapeout-Workflow)
 
 **2× CMOS Tape-out · DRC / LVS / PEX · Post-layout · Measurement**
@@ -51,25 +67,8 @@ A process-independent engineering notebook built from two real tape-out experien
 **[Explore repository →](https://github.com/CryingXC/Analog-Tapeout-Workflow)**
 
 </td>
-<td width="50%" valign="top">
-
-### 📡 [Capsule Antenna Research](https://github.com/CryingXC/Capsule-Antenna-Research)
-
-**Earlier Undergraduate Research (Year 1–2) · 2× IEEE ICMMT 2024**
-
-Research portfolio and technical notebook for wireless capsule endoscopy antennas.
-
-- Hilbert-fractal conformal antenna — **First-author ICMMT 2024**
-- Minkowski-like broadband antenna — **4th-author ICMMT 2024**
-- S11 / S12 / gain / bandwidth / isolation / ECC
-- MIMO capsule antenna and HFSS methodology
-
-**[Explore earlier research →](https://github.com/CryingXC/Capsule-Antenna-Research)**
-
-</td>
 </tr>
 </table>
-
 ---
 
 ## Tape-out Timeline

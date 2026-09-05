@@ -6,7 +6,7 @@
 
 **Power Management IC · CMOS Analog Design · Post-Layout Verification**
 
-`2× UMC CMOS Tape-out` · `0.18 μm LDO Project Manager` · `2× IEEE ICMMT 2024 Papers`
+`Current Focus: Analog / Mixed-Signal IC` · `2× UMC CMOS Tape-out` · `0.18 μm LDO Project Manager`
 
 </div>
 
@@ -14,9 +14,11 @@
 
 ## Profile
 
-Analog / mixed-signal IC designer focused on **power-management ICs**, transistor-level CMOS design, and implementation-aware verification.
+Current primary focus: **analog / mixed-signal IC design and power-management ICs**, with an emphasis on transistor-level CMOS design and implementation-aware verification.
 
 Current work spans power stages, gate drivers, feedback systems, analog building blocks, startup behavior, PVT robustness, parasitic extraction, and post-layout simulation. The emphasis is not only on whether a circuit works, but on **why it works, where it fails, and how much margin remains across operating conditions**.
+
+Earlier undergraduate research during **Years 1–2** focused on capsule antennas and led to two IEEE ICMMT 2024 papers. That work is retained below as earlier research experience rather than the current technical focus.
 
 ---
 
@@ -35,22 +37,6 @@ Current work spans power stages, gate drivers, feedback systems, analog building
 <tr>
 <td width="50%" valign="top">
 
-### 📡 [Capsule Antenna Research](https://github.com/CryingXC/Capsule-Antenna-Research)
-
-**2× IEEE ICMMT 2024 · Fractal Antennas · MIMO · HFSS**
-
-Research portfolio and technical notebook for wireless capsule endoscopy antennas.
-
-- Hilbert-fractal conformal antenna — **First-author ICMMT 2024**
-- Minkowski-like broadband antenna — **4th-author ICMMT 2024**
-- S11 / S12 / gain / bandwidth / isolation / ECC
-- MIMO capsule antenna and HFSS methodology
-
-**[Explore repository →](https://github.com/CryingXC/Capsule-Antenna-Research)**
-
-</td>
-<td width="50%" valign="top">
-
 ### 🧪 [Analog Tape-out Workflow](https://github.com/CryingXC/Analog-Tapeout-Workflow)
 
 **2× CMOS Tape-out · DRC / LVS / PEX · Post-layout · Measurement**
@@ -63,6 +49,22 @@ A process-independent engineering notebook built from two real tape-out experien
 - Tape-out, post-layout and bring-up checklists
 
 **[Explore repository →](https://github.com/CryingXC/Analog-Tapeout-Workflow)**
+
+</td>
+<td width="50%" valign="top">
+
+### 📡 [Capsule Antenna Research](https://github.com/CryingXC/Capsule-Antenna-Research)
+
+**Earlier Undergraduate Research (Year 1–2) · 2× IEEE ICMMT 2024**
+
+Research portfolio and technical notebook for wireless capsule endoscopy antennas.
+
+- Hilbert-fractal conformal antenna — **First-author ICMMT 2024**
+- Minkowski-like broadband antenna — **4th-author ICMMT 2024**
+- S11 / S12 / gain / bandwidth / isolation / ECC
+- MIMO capsule antenna and HFSS methodology
+
+**[Explore earlier research →](https://github.com/CryingXC/Capsule-Antenna-Research)**
 
 </td>
 </tr>
@@ -93,7 +95,9 @@ Responsibilities covered project coordination together with circuit design, simu
 
 ---
 
-## Publications
+## Earlier Undergraduate Research Publications
+
+The following antenna work was completed during the earlier undergraduate stage (Years 1–2) and is kept here as part of the research record.
 
 <table>
 <tr>
@@ -144,18 +148,6 @@ The official UESTC research feature includes the **antenna structures, feed-poin
 <tr>
 <td width="50%" valign="top">
 
-### Power Management IC
-- DC-DC converters
-- Switched-capacitor / hybrid converters
-- LDO regulators
-- Gate drivers
-- Dead-time / non-overlap control
-- Startup & protection
-- Power-stage efficiency optimization
-
-</td>
-<td width="50%" valign="top">
-
 ### Analog / Mixed-Signal IC
 - Operational amplifiers / OTAs
 - Comparators
@@ -164,6 +156,18 @@ The official UESTC research feature includes the **antenna structures, feed-poin
 - ADC building blocks
 - Feedback & stability
 - Behavioral modeling
+
+</td>
+<td width="50%" valign="top">
+
+### Power Management IC
+- DC-DC converters
+- Switched-capacitor / hybrid converters
+- LDO regulators
+- Gate drivers
+- Dead-time / non-overlap control
+- Startup & protection
+- Power-stage efficiency optimization
 
 </td>
 </tr>
